@@ -8,46 +8,80 @@ body {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
     padding: 2rem;
     padding-left: 0;
 }
 
-.nav-item {
-    font-size: 1.2em;
-    margin-left: 0.8em;
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
 }
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: 300;
+    font-family: "Ubuntu";
+}
+
+.nav-item {
+    padding: 0 1rem;
+    /* margin-left: 0.8em; */
+}
+
+.nav-link {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* Title */
 
 .container-fluid {
     padding: 3% 15%;
 }
 
-.download-btn {
-    margin-top: 5px;
-}
-
-.navbar-brand {
-    font-size: 3em;
-    font-weight: 400;
-}
-
-.title-container {
-    margin-top: 2em;
-}
-
 .description-container {
     margin-bottom: 2.5em;
+    padding-top: 1.5em;
+}
+
+/* Title Image */
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
     padding-top: 2em;
 }
 
-.android-download-btn {
-    margin-left: 1em;
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
 }
 
-.app-img {
-    transform: rotate(20deg);
-    padding-top: 2em;
+/* Features */
+#features {
+    color: #000;
+}
+
+.feature-container {
+    text-align: center;
+}
+
+.feature-icon {
+    color: #ef8172;
+    font-size: 3em;
+    padding: 2rem 0;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.5em;
+    font-weight: 900;
 }
