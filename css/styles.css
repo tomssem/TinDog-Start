@@ -2,19 +2,23 @@
     background-color: #FF4C68;
 }
 
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
-    color: white;
     padding: 2rem;
     padding-left: 0;
 }
 
 .nav-item {
-    font-size: 1.5em;
-    margin-left: 1em;
+    font-size: 1.2em;
+    margin-left: 0.8em;
 }
 
 .container-fluid {
