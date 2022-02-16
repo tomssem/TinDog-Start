@@ -7,6 +7,14 @@ h1 {
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
+    color: white;
+    padding: 2rem;
+    padding-left: 0;
+}
+
+.nav-item {
+    font-size: 1.5em;
+    margin-left: 1em;
 }
 
 .container-fluid {
@@ -14,5 +22,28 @@ h1 {
 }
 
 .download-btn {
-    margin: 5px;
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.title-container {
+    margin-top: 2em;
+}
+
+.description-container {
+    margin-bottom: 2.5em;
+    padding-top: 2em;
+}
+
+.android-download-btn {
+    margin-left: 1em;
+}
+
+.app-img {
+    transform: rotate(20deg);
+    padding-top: 2em;
 }
