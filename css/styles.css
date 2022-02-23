@@ -23,7 +23,7 @@ h2 {
 /* Navigation bar */
 
 .navbar {
-    padding: 0 0 4.5rem 0;
+    padding: 0 0 1rem 0;
 }
 
 .navbar-brand {
@@ -44,25 +44,50 @@ h2 {
 
 /* Title */
 
+.title-container {
+    padding-top: 2rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
 
 .description-container {
-    margin-bottom: 2.5em;
-    padding-top: 1.5em;
+    margin-bottom: 0;
+    /* padding-top: 1.5em; */
 }
 
 .main-title {
     color: white;
+    padding-bottom: 2rem;
 }
 
 /* Title Image */
 
+.app-img-container {
+    position: relative;
+}
+
 .title-img {
-    width: 60%;
+    width: 300px;
     transform: rotate(25deg);
-    padding-top: 2em;
+    padding-top: 3em;
+    position: absolute;
+    left: 70px;
+}
+
+@media (max-width: 991px) {
+    .title-container {
+        height: auto;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 /* Download Buttons */
@@ -74,6 +99,14 @@ h2 {
 /* Features */
 #features {
     color: #000;
+}
+
+.features-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-container {
