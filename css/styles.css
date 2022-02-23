@@ -102,7 +102,6 @@ h2 {
 /* Testemonials */
 
 #testimonials {
-    padding: 7% 20%;
     background-color: #ff4c68;
     color: #FFF;
     text-align: center;
@@ -112,6 +111,16 @@ h2 {
     border-radius: 50%;;
     width: 10%;
     margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 4vw;
+  height: 7vh;
 }
 
 /* Press */
